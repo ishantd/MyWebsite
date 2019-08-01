@@ -7,6 +7,37 @@ html {
   margin: 0;
 }
 
+.navbar {
+    background-color : black !important;
+    margin: 0 !important;
+}
+
+.intro {
+    height: 100vh;
+    background-image: linear-gradient(to right top, #222222, #252525, #282828, #2c2c2c, #2f2f2f, #323233, #343436, #37373a, #383a3e, #383d43, #384047, #37434a);
+}
+
+.orientation{
+    width: 100%;
+    margin: 0 auto;
+    transform: translateY(450%);
+}
+
+.underline {
+  background-color: white;
+  height: 2px;
+  width: 220px;
+  margin: 0 auto;
+}
+#img1 {
+  align-content: center;
+}
+.img-fluid {
+    border-radius: 50%;
+    width: 300px;
+    
+}
+
 .container_intro{
   display: flex;
   flex-direction: column;
@@ -64,10 +95,10 @@ html {
 
 @keyframes move{
   0%{top: 0px;}
-  20%{top: -50px;}
-  40%{top: -100px;}
-  60%{top: -150px;}
-  80%{top: -200px;}
+  20%{top: -58px;}
+  40%{top: -120px;}
+  60%{top: -180px;}
+  80%{top: -239px;}
 }
 
 .signature{
